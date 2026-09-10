@@ -1,0 +1,24 @@
+{
+  "name": "web",
+  "type": "module",
+  "private": true,
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "dev": "astro dev --port 4321"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^4.2.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^18.3.0",
+    "astro": "^5.3.0",
+    "react": "^18.3.1",
+    "typescript": "^5.9.2",
+    "vite": "^6.1.0"
+  }
+}
